@@ -1,0 +1,582 @@
+body {
+    background: #d7e6ec;
+}
+
+.bodysecondcolor{
+    background-color: #0c12e4;
+    background: linear-gradient(0deg, #d7e6ec 0%, #0c12e4 50%, #0c12e4 100%);
+    position: relative;
+    width: 101%;
+    height: 200px;
+    left: -10px;
+    top: 0px;
+    padding: 210px;
+    
+}
+
+.wind{
+    background-color: rgb(245, 211, 211);
+    position: relative;
+    width: 101%;
+    left: -10px;
+    top: -685px;
+    padding: 2px;
+    animation-name: veloz;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+
+}
+
+
+@keyframes veloz{
+    from {background-color: rgb(0, 110, 255) ; padding: 0px; width: 0px;}
+    to{background-color: #d7e6ec; padding: 3px; width: 100%; }
+}
+@keyframes veloztop{
+    from {background-color: rgb(0, 110, 255) ; padding: 0px; width: 0px;}
+    to{background-color: #d7e6ec; padding: 3px; width: 100%; }
+}
+@keyframes velozama{
+    from {background-color: rgb(0, 110, 255) ; padding: 0px; width: 0px;}
+    to{background-color: rgb(198, 217, 241); padding: 2px; width: 100%; }
+}
+
+.wind.wind2{
+    top: -600px;
+    animation-name: veloztop;
+    animation-duration: 3s;
+}
+
+.wind.wind3{
+    top: -580px;
+    animation-name: velozama;
+    animation-duration: 2s;
+}
+
+.wind.wind4{
+    top: -595px;
+    animation-name: veloz;
+    animation-duration: 2.5s;
+}
+
+.wind.winddown{
+    top: -178px;
+    animation-name: veloztop;
+    animation-duration: 3s;
+}
+
+.wind.winddown1{
+    top: -160px;
+    animation-name: veloztop;
+    animation-duration: 3s;
+}
+
+.wind.winddown2{
+    top: -168px;
+    animation-name: velozama;
+    animation-duration: 2s;
+}
+
+.wind.winddown3{
+    top: -174px;
+    animation-name: veloztop;
+    animation-duration: 3s;
+}
+
+#cloud * {
+    position: relative;
+    
+  }
+
+.cloud-main {
+    position: relative;
+    width: 200px;
+    left: 40%;
+    bottom: 350px;
+    height: 120px;
+    background-color: #FAD946;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; /* Forma de la nube */
+     /* Sombras para dar efecto tridimensional */
+}
+
+#cloud .cloud-little{
+    position: relative;
+    width: 60px;
+    left: 54%;
+    bottom: 0px;
+    height: 50px;
+    background-color: #FAD946;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .littledown1{
+    position: relative;
+    width: 90px;
+    left: 110%;
+    bottom: 60px;
+    height: 70px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 180deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+}
+
+/* Derecha de la nube */
+
+#cloud .littledown3{
+    position: relative;
+    width: 80px;
+    left: 85%;
+    bottom: 90px;
+    height: 60px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 180deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+
+}
+
+#cloud .littledown4{
+    position: relative;
+    width: 40px;
+    left: 75%;
+    bottom: 150px;
+    height: 50px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 210deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+
+}
+
+#cloud .littledown5{
+    position: relative;
+    width: 100px;
+    left: 35%;
+    bottom: 215px;
+    height: 50px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 190deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+
+}
+
+#cloud .littledown6{
+    position: relative;
+    width: 70px;
+    left: 20%;
+    bottom: 250px;
+    height: 50px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 180deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+}
+
+#cloud .littledown7{
+    position: relative;
+    width: 70px;
+    left: 5%;
+    bottom: 290px;
+    height: 60px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 180deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+}
+
+
+#cloud .littledown8{
+    position: relative;
+    width: 80px;
+    left: -17%;
+    bottom: 365px;
+    height: 65px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 215deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+}
+
+
+#cloud .littledown9{
+    position: relative;
+    width: 80px;
+    left: -20%;
+    bottom: 500px;
+    height: 100px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 270deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    box-shadow: -10px -18px 15.5px -11px #da9e06;
+}
+
+
+/* TERMINA LA PARTE DE ABAJO */
+
+
+#cloud .upcloud{
+    position: relative;
+    width: 60px;
+    left: -15%;
+    bottom: 615px;
+    height: 80px;
+    background: #FAD946;
+    rotate: 90deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .upcloud1{
+    position: relative;
+    width: 60px;
+    left: -0%;
+    bottom: 720px;
+    height: 80px;
+    background: #FAD946;
+    rotate: 90deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .upcloud2{
+    position: relative;
+    width: 60px;
+    left: 10%;
+    bottom: 960px;
+    height: 80px;
+    background: #FAD946;
+    rotate: 155deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .upcloud3{
+    position: relative;
+    width: 70px;
+    left: 25%;
+    bottom: 1060px;
+    height: 50px;
+    background: #FAD946;
+    rotate: 0deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .upcloud4{
+    position: relative;
+    width: 60px;
+    left: 50%;
+    bottom: 1100px;
+    height: 50px;
+    background: #FAD946;
+    rotate: 0deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+
+
+#cloud .upcloud5{
+    position: relative;
+    width: 70px;
+    left: 70%;
+    bottom: 1156px;
+    height: 50px;
+    background: #FAD946;
+    rotate: 0deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+
+#cloud .upcloud6{
+    position: relative;
+    width: 70px;
+    left: 90%;
+    bottom: 1170px;
+    height: 50px;
+    background: #FAD946;
+    rotate: 0deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+
+#cloud .upcloud7{
+    position: relative;
+    width: 60px;
+    left: 110%;
+    bottom: 1198px;
+    height: 50px;
+    background: #FAD946;
+    rotate: 30deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .upcloud8{
+    position: relative;
+    width: 70px;
+    left: 125%;
+    bottom: 1230px;
+    height: 50px;
+    background: #FAD946;
+    rotate: 30deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+
+#cloud .upcloud9{
+    position: relative;
+    width: 40px;
+    left: 128%;
+    bottom: 1250px;
+    height: 40px;
+    background: #FAD946;
+    rotate: 180deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+
+#cloud .upcloud10{
+    position: relative;
+    width: 40px;
+    left: 128%;
+    bottom: 1250px;
+    height: 40px;
+    background: #FAD946;
+    rotate: 180deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+
+}
+
+#cloud .fillcloud1{
+    position: relative;
+    width: 110px;
+    left: 84%;
+    bottom: 1305px;
+    height: 60px;
+    background: #FAD946;
+    rotate: 215deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+#cloud .fillcloud2{
+    position: relative;
+    width: 80px;
+    left: 60%;
+    bottom: 1410px;
+    height: 80px;
+    background: #FAD946;
+    rotate: 0deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#cloud .fillcloud3{
+    position: relative;
+    width: 60px;
+    left: 80%;
+    bottom: 1430px;
+    height: 80px;
+    background: #FAD946;
+    rotate: 90deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+#cloud .fillcloud4{
+    position: relative;
+    width: 58px;
+    left: 30%;
+    bottom: 1575px;
+    height: 96px;
+    background: #FAD946;
+    rotate: 30deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#cloud .fillcloud5{
+    position: relative;
+    width: 90px;
+    left: 40%;
+    bottom: 1615px;
+    height: 60px;
+    background: #FAD946;
+    rotate: 215deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+#cloud .fillcloud6{
+    position: relative;
+    width: 98px;
+    left: 0%;
+    bottom: 1680px;
+    height: 94px;
+    background: #FAD946;
+    rotate: 210deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+
+#cloud .littledown10{
+    position: relative;
+    width: 70px;
+    left: 53%;
+    bottom: 850px;
+    height: 150px;
+    background: #eabf31;
+    background: radial-gradient(linear, #da9e06 0%, #fad946 100%);
+    rotate: 270deg;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+
+
+
+.humonub {
+    width: 900px;
+    height: 20px;
+    bottom: 45px;
+    right: 880px;
+    background-color: #FAD946;
+    transition: width 4s ease-out;
+
+}
+
+.humonub:hover{
+    width: 0px;
+    background: linear-gradient(87deg, #83b3ea 0%, #FAD946 100%);
+
+}
+
+.humonubshade  {
+    width: 900px;
+    height: 20px;
+    bottom: 45px;
+    right: 880px;
+    background-color: #e1a60a;
+    transition: width 4s ease-out;
+
+}
+
+.humonubshade:hover{
+    width: 0px;
+    background: linear-gradient(87deg, #83b3ea 0%, #e1a60a 100%);
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+.gridmountainpunti {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 500px 300px;
+    border-color: transparent transparent #e6eff2 transparent;
+}
+
+.gridmountainpunti:after {
+    border-width: 0 400px 500px 100px;
+
+}
+
+.gridmountainroun {
+    background: #e6eff2;
+    position: relative;
+    bottom: -150px;
+    left: 280px;
+    width: 400px;
+    height: 250px; 
+    border-radius: 90% 0% 25% 25% / 97% 96% 0% 0%;
+    background: linear-gradient(20deg, #6993e5 0%, #e6eff2 50%, #e6eff2 100%);
+}
+.gridmountainrouncomp {
+    background: #e6eff2;
+    position: relative;
+    bottom: -0px;
+    left: 720px;
+    width: 400px;
+    height: 150px; 
+    border-radius: 0% 66% 25% 25% / 97% 63% 0% 0%;
+    background: linear-gradient(350deg, #6993e5 0%, #e6eff2 50%, #e6eff2 100%);    
+
+}
+
+.gridmountainrouncomp1 {
+    background: #e6eff2;
+    position: relative;
+    bottom: 150px;
+    left: 1200px;
+    width: 400px;
+    height: 150px; 
+    border-radius: 0% 66% 25% 25% / 97% 63% 0% 0%;
+    background: linear-gradient(310deg, #6993e5 0%, #e6eff2 50%, #e6eff2 100%);    
+
+}
+
+.gridmountainpunti1 {
+    width: 0;
+    height: 0;
+    left: 100px;
+    border-style: solid;
+    border-width: 0 200px 500px 400px;
+    border-color: transparent transparent #e6eff2 transparent;
+}
+
+.gridmountainpunti2 {
+    position: relative;
+    top: 300px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 200px 200px 200px;
+    border-color: transparent transparent #e6eff2 transparent;
+}
+
+.body:before {
+    content: "";
+    background-color: #ffffff;
+}
+
+.body:after {
+    content: "";
+    position: relative;
+    bottom: 1280px;
+    left: 40%;
+
+    background-color: #ffffff00;
+    width: 200px; 
+    height: 400px; 
+    display:flex;
+    background-image: url("goku.svg");
+    background-position: center; 
+
+  }
+
+
+/* No hacer position absolute */
+
+/* FAD946 color de la nube */
+/* EABF31 COlor de la nube pero oscurita */
+
